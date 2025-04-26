@@ -308,7 +308,8 @@ footer {
     list-style: none;
     padding: 0;
     max-width: 600px;
-    margin: 0 auto;
+    margin-left: 0; 
+    margin-right: auto; 
 }
 
 .feature-list li {
@@ -338,7 +339,14 @@ footer {
 .video-container {
     display: flex;
     justify-content: flex-start;
+    padding-bottom: 60px;
 }
+
+.video-container iframe {
+    width: 80%; 
+    height: 450px; 
+}
+
 .products h2,
 .gallery h2,
 .features h2,
